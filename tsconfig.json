@@ -1,8 +1,8 @@
 {
 	"extends": "./.svelte-kit/tsconfig.json",
 	"compilerOptions": {
-		"allowJs": true,
-		"checkJs": true,
+		"allowJs": false,
+		"checkJs": false,
 		"esModuleInterop": true,
 		"forceConsistentCasingInFileNames": true,
 		"resolveJsonModule": true,
@@ -11,11 +11,14 @@
 		"strict": true
 	},
   "include": [
-    "src",
+    "src/**/*",
     "playwright.config.ts",
     "svelte.config.js",
-    "tests",
+    "tests/**/*",
     "vite.config.ts"
+  ],
+  "exclude": [
+    "node_modules"
   ]
 	// Path aliases are handled by https://kit.svelte.dev/docs/configuration#alias
 	//
