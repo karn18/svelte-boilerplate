@@ -1,13 +1,20 @@
 <script lang="ts">
-  const message = 'hello world'
+  import Welcome from "../components/Welcome.svelte";
 </script>
 <section class="container mx-auto">
-  <h1 class="text-3xl font-bold text-green-400 underline">
-    Svelte boilerplate
-  </h1>
+  <Welcome />
 
   <h2 class="text-xl font-bold text-blue-400">Features</h2>
-  <ul>
-    <li>TailwindCSS</li>
-  </ul>
+  <ol class="list-decimal">
+    <li>Tyescript</li>
+    <li>CSS: TailwindCSS</li>
+    <li>
+      <h3>Testing</h3>
+      <ul class="list-disc">
+        <li>Components: testing-library</li>
+        <li>E2E: playwright</li>
+      </ul>
+    </li>
+    <li>Lint</li>
+  </ol>
 </section>

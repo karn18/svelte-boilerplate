@@ -10,7 +10,18 @@ const config = {
   }),
 
   kit: {
-    adapter: adapter()
+    adapter: adapter(),
+    appDir: 'app',
+    csrf: {
+      checkOrigin: true
+    },
+    env: {
+      dir: process.cwd()
+    },
+    version: {
+      name: Date.now().toString(),
+      pollInterval: 0
+    }
   }
 }
 
