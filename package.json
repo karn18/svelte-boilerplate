@@ -33,6 +33,7 @@
 	},
 	"dependencies": {
 		"@namics/stylelint-bem": "^7.0.0",
+		"@sveltejs/adapter-netlify": "next",
 		"@sveltejs/vite-plugin-svelte": "^1.0.5",
 		"@testing-library/jest-dom": "^5.16.5",
 		"@testing-library/svelte": "^3.2.1",
