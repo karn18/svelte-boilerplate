@@ -1,5 +1,6 @@
 <script lang="ts">
   import Welcome from "../components/Welcome.svelte";
+  import PublicIp from "../components/PublicIP.svelte";
 </script>
 <section class="container mx-auto">
   <Welcome />
@@ -17,4 +18,7 @@
     </li>
     <li>Lint</li>
   </ol>
+
+  <hr />
+  <PublicIp />
 </section>

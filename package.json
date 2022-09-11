@@ -1,6 +1,7 @@
 {
 	"name": "sample",
 	"version": "0.0.1",
+	"type": "module",
 	"private": true,
 	"scripts": {
 		"dev": "vite dev",
@@ -30,13 +31,14 @@
 		"vite": "^3.1.0-beta.1",
 		"vitest": "^0.23.2"
 	},
-	"type": "module",
 	"dependencies": {
 		"@namics/stylelint-bem": "^7.0.0",
 		"@sveltejs/vite-plugin-svelte": "^1.0.5",
 		"@testing-library/jest-dom": "^5.16.5",
 		"@testing-library/svelte": "^3.2.1",
 		"autoprefixer": "^10.4.8",
+		"axios": "^0.27.2",
+		"axios-retry": "^3.3.1",
 		"eslint-config-standard-with-typescript": "latest",
 		"eslint-plugin-import": "latest",
 		"eslint-plugin-n": "^15.2.5",
