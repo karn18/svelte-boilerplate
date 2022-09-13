@@ -37,7 +37,10 @@ export class FetchRequest {
       timeout: this.timeout,
       headers: {
         'Access-Control-Allow-Origin': '*',
-        'Content-Type': this.contentType
+        'Access-Control-Allow-Methods': 'GET,PUT,POST,DELETE,PATCH,OPTIONS',
+        'Content-Type': this.contentType,
+        withCredentials: true,
+        mode: 'no-cors'
       },
       responseType: this.responseType
     }, options))
