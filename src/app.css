@@ -2,9 +2,10 @@
   font-family: "IBM Plex Sans Thai";
   font-weight: normal;
   font-style: normal;
-  src: url("fonts/IBMPlexSansThai-Regular.ttf") format("ttf");
-  src: url("fonts/IBMPlexSansThai-Regular.woff2") format("woff2");
-  src: local("IBMPlexSansThai-Regular"), url("fonts/IBMPlexSansThai-Regular.ttf");
+  src: url("/fonts/IBMPlexSansThai-Regular.ttf") format("ttf");
+  src: url("/fonts/IBMPlexSansThai-Regular.woff2") format("woff2");
+
+  /* src: local("IBMPlexSansThai-Regular"), url("fonts/IBMPlexSansThai-Regular.ttf"); */
   font-display: swap;
 }
 
@@ -12,9 +13,10 @@
   font-family: "IBM Plex Sans Thai";
   font-weight: bold;
   font-style: normal;
-  src: url("fonts/IBMPlexSansThai-Bold.ttf") format("ttf");
-  src: url("fonts/IBMPlexSansThai-Bold.woff2") format("woff2");
-  src: local("IBMPlexSansThai-Bold"), url("fonts/IBMPlexSansThai-Bold.ttf");
+  src: url("/fonts/IBMPlexSansThai-Bold.ttf") format("ttf");
+  src: url("/fonts/IBMPlexSansThai-Bold.woff2") format("woff2");
+
+  /* src: local("IBMPlexSansThai-Bold"), url("fonts/IBMPlexSansThai-Bold.ttf"); */
   font-display: swap;
 }
 
@@ -22,9 +24,10 @@
   font-family: "IBM Plex Sans Thai Looped";
   font-weight: normal;
   font-style: normal;
-  src: url("fonts/IBMPlexSansThaiLooped-Regular.ttf") format("ttf");
-  src: url("fonts/IBMPlexSansThaiLooped-Regular.woff2") format("woff2");
-  src: local("IBMPlexSansThaiLooped-Regular"), url("fonts/IBMPlexSansThaiLooped-Regular.ttf");
+  src: url("/fonts/IBMPlexSansThaiLooped-Regular.ttf") format("ttf");
+  src: url("/fonts/IBMPlexSansThaiLooped-Regular.woff2") format("woff2");
+
+  /* src: local("IBMPlexSansThaiLooped-Regular"), url("fonts/IBMPlexSansThaiLooped-Regular.ttf"); */
   font-display: swap;
 }
 
@@ -32,9 +35,10 @@
   font-family: "IBM Plex Sans Thai Looped";
   font-weight: bold;
   font-style: normal;
-  src: url("fonts/IBMPlexSansThaiLooped-Bold.ttf") format("ttf");
-  src: url("fonts/IBMPlexSansThaiLooped-Bold.woff2") format("woff2");
-  src: local("IBMPlexSansThaiLooped-Bold"), url("fonts/IBMPlexSansThaiLooped-Bold.ttf");
+  src: url("/fonts/IBMPlexSansThaiLooped-Bold.ttf") format("ttf");
+  src: url("/fonts/IBMPlexSansThaiLooped-Bold.woff2") format("woff2");
+
+  /* src: local("IBMPlexSansThaiLooped-Bold"), url("fonts/IBMPlexSansThaiLooped-Bold.ttf"); */
   font-display: swap;
 }
 
