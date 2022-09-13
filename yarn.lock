@@ -334,7 +334,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sveltejs/adapter-netlify@npm:1.0.0-next.76, @sveltejs/adapter-netlify@npm:next":
+"@sveltejs/adapter-netlify@npm:1.0.0-next.76":
   version: 1.0.0-next.76
   resolution: "@sveltejs/adapter-netlify@npm:1.0.0-next.76"
   dependencies:
@@ -343,6 +343,17 @@ __metadata:
     set-cookie-parser: ^2.4.8
     tiny-glob: ^0.2.9
   checksum: e51ae9f2e46a707a87a20e27e9f2ff190b60eaa1d91b4e20a8c687a978aa8cebfa04663924a0c4b0733f754d7df60bd6ce02aaf247b1a3fcad1f37dc39fe1328
+  languageName: node
+  linkType: hard
+
+"@sveltejs/adapter-netlify@npm:^1.0.0-next.77":
+  version: 1.0.0-next.77
+  resolution: "@sveltejs/adapter-netlify@npm:1.0.0-next.77"
+  dependencies:
+    "@iarna/toml": ^2.2.5
+    esbuild: ^0.15.6
+    set-cookie-parser: ^2.4.8
+  checksum: e4e8884f6a555c744b88416cc9986fb9481305fe087bbe46a17d4d97f3784843e59a024ccf982ad1a8cc8c77e21cca491efe07aa13476f013c7277bb21217720
   languageName: node
   linkType: hard
 
@@ -4948,7 +4959,7 @@ __metadata:
     "@namics/stylelint-bem": ^7.0.0
     "@playwright/test": ^1.25.0
     "@sveltejs/adapter-auto": next
-    "@sveltejs/adapter-netlify": next
+    "@sveltejs/adapter-netlify": ^1.0.0-next.77
     "@sveltejs/kit": next
     "@sveltejs/vite-plugin-svelte": ^1.0.5
     "@testing-library/jest-dom": ^5.16.5
