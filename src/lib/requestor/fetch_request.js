@@ -38,10 +38,10 @@ export class FetchRequest {
       headers: {
         'Access-Control-Allow-Origin': '*',
         'Access-Control-Allow-Methods': 'GET,PUT,POST,DELETE,PATCH,OPTIONS',
-        'Content-Type': this.contentType,
-        withCredentials: true,
-        mode: 'no-cors'
+        'Content-Type': this.contentType
       },
+      withCredentials: true,
+      mode: 'no-cors',
       responseType: this.responseType
     }, options))
   }
