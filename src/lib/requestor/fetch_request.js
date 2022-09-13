@@ -36,7 +36,7 @@ export class FetchRequest {
     this.instance = axios.create(Object.assign({
       timeout: this.timeout,
       headers: {
-        // 'Access-Control-Allow-Origin': true,
+        'Access-Control-Allow-Origin': '*',
         'Content-Type': this.contentType
       },
       responseType: this.responseType
